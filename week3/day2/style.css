@@ -1,0 +1,24 @@
+.checkerboard {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkerboard div {
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+}
+.checkerboard div > div {
+  width: 12.5%;
+  height: 100%;
+}
+div:nth-child(even),
+.flipped > :nth-child(odd) {
+  background-color: #d18a46;
+}
+div:nth-child(odd),
+.flipped > :nth-child(even) {
+  background-color: #ffce9e;
+}
