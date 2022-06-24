@@ -1,16 +1,18 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgba(174, 170, 170, 0);
-  color: #242526;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
+  --white: #edecec;
+  --gray: #242526;
+  --red: #df0000;
+  color: var(--gray);
 }
 
 img {
-  height: 100px;
+  height: 90px;
   margin: 10px;
 }
-
 .container {
   height: 100vh;
   width: 100vw;
@@ -19,26 +21,26 @@ img {
   align-items: center;
 }
 .header {
+  margin: 20px 10px 10px 10px;
   font-weight: 800;
   font-size: 3rem;
-  margin: 20px 10px 10px 10px;
 }
 .player,
 .dealer {
   min-height: 110px;
   width: 60%;
   padding: 5px 10px;
-  display: flex;
-  align-items: center;
-  background-color: rgb(237, 236, 236);
+  background-color: var(--white);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  align-items: center;
 }
 .score {
-  display: flex;
   font-weight: 400;
   font-size: 1.3rem;
   margin: 10px;
+  display: flex;
 }
 .score p {
   margin: 10px 5px;
@@ -48,17 +50,17 @@ img {
   margin: 30px 10px 20px 10px;
 }
 .buttons button {
-  background-color: #242526;
-  color: white;
-  border: none;
-  font-family: "Roboto", sans-serif;
   margin: 0px 20px;
-  font-size: 1.3rem;
   padding: 5px 20px;
+  background-color: var(--gray);
+  color: #ffffff;
+  border: none;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
 }
 
 .banner {
   color: #df0000;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
