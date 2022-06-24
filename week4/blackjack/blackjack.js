@@ -1,4 +1,3 @@
-// grab everything
 const deal = document.querySelector(".deal");
 const hit = document.querySelector(".hit");
 const stand = document.querySelector(".stand");
