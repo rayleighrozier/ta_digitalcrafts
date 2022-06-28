@@ -1,0 +1,8 @@
+body {
+  background-color: #edecec;
+  font-family: Roboto, sans-serif;
+  color: #242526;
+}
+.strikethrough p {
+  text-decoration: line-through;
+}
